@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa335132.css",
+    "main.js": "/static/js/main.4cad87dc.js",
+    "static/js/787.b14adbe2.chunk.js": "/static/js/787.b14adbe2.chunk.js",
+    "static/media/profile_image.jpg": "/static/media/profile_image.60cd32568f9876a83d35.jpg",
+    "static/media/Shop.com.jpg": "/static/media/Shop.com.42812b70b40195b69e7c.jpg",
+    "static/media/webdev.svg": "/static/media/webdev.80d48f4797a85962149f7d56a454e535.svg",
+    "static/media/Hello_bonsai.jpg": "/static/media/Hello_bonsai.811cabe0a151024865d9.jpg",
+    "static/media/cloudBg.png": "/static/media/cloudBg.f28b5c6961fd82be839c.png",
+    "static/media/cloudDark.png": "/static/media/cloudDark.51edaa54cabe7b964ae9.png",
+    "static/media/ModeSens.jpg": "/static/media/ModeSens.b91b1949bac46831fc39.jpg",
+    "static/media/skinstore.png": "/static/media/skinstore.f5602d876506f12f31f1.png",
+    "index.html": "/index.html",
+    "main.aa335132.css.map": "/static/css/main.aa335132.css.map",
+    "main.4cad87dc.js.map": "/static/js/main.4cad87dc.js.map",
+    "787.b14adbe2.chunk.js.map": "/static/js/787.b14adbe2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa335132.css",
+    "static/js/main.4cad87dc.js"
+  ]
+}
