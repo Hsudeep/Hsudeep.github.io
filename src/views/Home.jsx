@@ -72,7 +72,7 @@ const Home = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1T0maz9ezhWI2BvTMV6KMK5Lb9WDtHuWW/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1SL_mX-acTEnmMTUl8TxsNCPZV3IummYp/view?usp=sharing"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                 >
                   Resume

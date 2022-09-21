@@ -1,4 +1,4 @@
-import skin_Store from "./assets/skinstore.png";
+// import skin_Store from "./assets/skinstore.png";
 import helloBon from "./assets/Hello_bonsai.jpg";
 import shop_com from "./assets/Shop.com.jpg";
 import mode_sens from "./assets/ModeSens.jpg";
