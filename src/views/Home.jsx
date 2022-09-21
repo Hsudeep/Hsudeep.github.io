@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import heroBg from "../assets/pro_image_removedbg.png";
+import heroBg from "../assets/webdev.svg";
 import { TypeAnimation } from "react-type-animation";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
@@ -20,17 +20,17 @@ const Home = () => {
         }
       >
         <main
-          className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col justify-center md:flex-row items-center md:justify-between h-screen"
+          className=" mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col justify-center md:flex-row items-center md:justify-between h-screen"
           id="/"
         >
-          <div className="w-[60%] sm:text-center lg:text-left">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+          <div className="  sm:text-center lg:text-left">
+            <h1 className="  text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
                 Hi, I am Sudeep
               </motion.span>
-              <span className="block text-violet-600 z-0 lg:inline">
+              <span className=" block text-violet-600 z-0 lg:inline">
                 <TypeAnimation
                   sequence={[
                     "Front End Developer",
@@ -72,7 +72,7 @@ const Home = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1Zh-7x3CZbBLCYQoKDNWJWrTQ12DFgXIM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1T0maz9ezhWI2BvTMV6KMK5Lb9WDtHuWW/view?usp=sharing"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                 >
                   Resume
@@ -80,25 +80,25 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div>
-              <motion.img
-                initial="hidden"
-                whileInView={"visible"}
-                variants={{
-                  visible: {
-                    y: 0,
-                    opacity: 1,
-                    transition: {
-                      type: "spring",
-                    },
-                  },
-                  hidden: { opacity: 1, y: 80 },
-                }}
-                src={heroBg}
-                alt=""
-                className="mx-auto md:w-3/6 hidden sm:block"
-              />
-          </div>
+          {/* <div className="  m-auto"> */}
+          <motion.img
+            initial="hidden"
+            whileInView={"visible"}
+            variants={{
+              visible: {
+                y: 0,
+                opacity: 1,
+                transition: {
+                  type: "spring",
+                },
+              },
+              hidden: { opacity: 1, y: 80 },
+            }}
+            src={heroBg}
+            alt=""
+            className="md:w-3/6 hidden  sm:block m-auto "
+          />
+          {/* </div> */}
         </main>
       </div>
     </>

@@ -1,6 +1,7 @@
 import skin_Store from "./assets/skinstore.png";
-import shop_com from "./assets/shopcom-logo-svg_file.svg";
-import mode_sens from "./assets/modeSens_2.png";
+import helloBon from "./assets/Hello_bonsai.jpg";
+import shop_com from "./assets/Shop.com.jpg";
+import mode_sens from "./assets/ModeSens.jpg";
 export const techStack = [
   {
     name: "HTML",
@@ -82,30 +83,41 @@ export const contactLinks = [
 export const projectsData = [
   {
     id: 1,
-    name: "Shop.com Clone",
-    img: shop_com,
-    desc: "SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web. Our shopping experts have drawn on their industry experience and insider connections to bring you the best collection of the stores you can't live without, and the brands and products you love - all in one place.",
-    github:
-      "https://github.com/Hsudeep/shop.com?organization=Hsudeep&organization=Hsudeep",
-    link: "https://stirring-babka-e9aa79.netlify.app/",
+    name: "Hello Bonsai - Clone",
+    img: helloBon,
+    desc: "Bonsai is building the global operating system for freelance work.The way the world works is changing. Companies want on-demand talent rather than full time employees. Workers want flexible and independent careers. This is one of the largest socio-economic shifts since the Industrial Revolution.",
+    github: "https://github.com/Hsudeep/HelloBonsai-Clone",
+    link: "https://petite-swing-7786.vercel.app/",
+    tec: "React | Redux | ChakraUI | MongoDB | Express",
   },
   {
     id: 2,
-    name: "ModeSens",
+    name: "ModeSens - Clone",
     img: mode_sens,
     desc: "ModeSens is your digital shopping assistant for the smart and informed. At ModeSens, we believe in the beauty of discovery, and we aim to create a community of like-minded individuals who are inspired by fashion and driven by technology, just like us.",
     github:
       "https://github.com/Hsudeep/Modesens?organization=Hsudeep&organization=Hsudeep",
     link: "https://magnificent-bublanina-64e24e.netlify.app/",
+    tec: "React | Redux | ChakraUI | JSON-Server",
   },
   {
     id: 3,
-    name: "SkinStore",
-    img: skin_Store,
-    desc: "For over 24 years skistore has been your number 1 destination for premium beauty, delivering the latest in innovative clinical skincare and luxury spa products. SkinStore was one of the first online stores to offer dermatologist-created and recommended products worldwide.",
-    github: "https://github.com/Hsudeep/little-spark-7917",
-    link: "https://celebrated-chaja-01937d.netlify.app/",
+    name: "Shop.com - Clone",
+    img: shop_com,
+    desc: "SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web. Our shopping experts have drawn on their industry experience and insider connections to bring you the best collection of the stores you can't live without, and the brands and products you love - all in one place.",
+    github:
+      "https://github.com/Hsudeep/shop.com?organization=Hsudeep&organization=Hsudeep",
+    link: "https://stirring-babka-e9aa79.netlify.app/",
+    tec: "HTML | CSS | JavaScript",
   },
+  // {
+  //   id: 3,
+  //   name: "SkinStore",
+  //   img: skin_Store,
+  //   desc: "For over 24 years skistore has been your number 1 destination for premium beauty, delivering the latest in innovative clinical skincare and luxury spa products. SkinStore was one of the first online stores to offer dermatologist-created and recommended products worldwide.",
+  //   github: "https://github.com/Hsudeep/little-spark-7917",
+  //   link: "https://celebrated-chaja-01937d.netlify.app/",
+  // },
 ];
 export const serviceData = [
   {

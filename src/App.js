@@ -17,10 +17,10 @@ function App() {
       {!loading ? (
         <div>
           <Navbar />
-          <Home/>
-          <About/>
-          <Projects/>
-          <Contact/>
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
         </div>
       ) : (
         <LoadingScreen />

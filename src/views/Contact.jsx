@@ -97,7 +97,10 @@ const Contact = () => {
                     Send me email directly
                   </a>
                 </div>
-                <button type="submit" className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
+                <button
+                  type="submit"
+                  className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400"
+                >
                   Submit
                 </button>
               </div>

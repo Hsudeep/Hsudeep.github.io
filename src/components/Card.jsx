@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card = ({ image, desc, id, name, git, link }) => {
+const Card = ({ image, desc, id, name, git, link , tec}) => {
   return (
     <motion.div
       key={id}
@@ -11,23 +11,25 @@ const Card = ({ image, desc, id, name, git, link }) => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      className="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+      className="max-w-xl h-fit  bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <div className="h-1/2">
         <img
-          className="w-full h-[10rem] bg-white p-1rem rounded-t-lg "
+          className="w-full  bg-white p-1rem rounded-t-lg "
           src={image}
           alt=""
         />
-      </a>
-      <div className="p-5">
+      </div>
+      <div className="p-2">
         <a href="helo">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {name}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          {desc}
+        <p className="mb-2 text-sm text-gray-700 dark:text-gray-400">{desc}</p>
+        <p className="mb-3 font-bold text-white">
+          Tech Stacks: 
+          <span className="text-sm font-normal text-gray-700 dark:text-gray-400"> {tec}</span>{" "}
         </p>
 
         <div className="flex justify-between">
