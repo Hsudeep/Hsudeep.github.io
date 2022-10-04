@@ -2,7 +2,8 @@
 import helloBon from "./assets/Hello_bonsai.jpg";
 import shop_com from "./assets/Shop.com.jpg";
 import mode_sens from "./assets/ModeSens.jpg";
-export const techStack = [
+
+export const techSktackF = [
   {
     name: "HTML",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -16,10 +17,6 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
-    name: "NodeJS",
-    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
-  },
-  {
     name: "React",
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
   },
@@ -28,21 +25,67 @@ export const techStack = [
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
   },
   {
-    name: "Express",
-    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
-  },
-  {
     name: "Redux",
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
-  },
-  {
-    name: "Postman",
-    link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
   },
   {
     name: "Tailwind CSS",
     link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
+  {
+    name: "Bootstrap",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
+  },
+  {
+    name: "Npm",
+    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png?20140904162625",
+  },
+  {
+    name: "Next JS",
+    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/207px-Nextjs-logo.svg.png",
+  },
+];
+export const techStack = [
+  // {
+  //   name: "HTML",
+  //   link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  // },
+  // {
+  //   name: "CSS",
+  //   link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+  // },
+  // {
+  //   name: "Javascript",
+  //   link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  // },
+  {
+    name: "NodeJS",
+    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+  },
+  // {
+  //   name: "React",
+  //   link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+  // },
+  // {
+  //   name: "TypeScript",
+  //   link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+  // },
+  {
+    name: "Express",
+    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+  },
+  // {
+  //   name: "Redux",
+  //   link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+  // },
+  {
+    name: "Postman",
+    link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+  },
+  // {
+  //   name: "Tailwind CSS",
+  //   link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+  // },
   {
     name: "Mongo DB",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
@@ -85,10 +128,10 @@ export const projectsData = [
     id: 1,
     name: "Hello Bonsai - Clone",
     img: helloBon,
-    desc: "Bonsai is building the global operating system for freelance work.The way the world works is changing. Companies want on-demand talent rather than full time employees. Workers want flexible and independent careers. This is one of the largest socio-economic shifts since the Industrial Revolution.",
+    desc: "Bonsai is building the global operating system for freelance work. Workers want flexible and independent careers. This is one of the largest socio-economic shifts since the Industrial Revolution.",
     github: "https://github.com/Hsudeep/HelloBonsai-Clone",
     link: "https://petite-swing-7786.vercel.app/",
-    tec: "React | Redux | ChakraUI | MongoDB | Express",
+    tec: "React | Redux | MongoDB | Express",
   },
   {
     id: 2,
@@ -104,7 +147,7 @@ export const projectsData = [
     id: 3,
     name: "Shop.com - Clone",
     img: shop_com,
-    desc: "SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web. Our shopping experts have drawn on their industry experience and insider connections to bring you the best collection of the stores you can't live without, and the brands and products you love - all in one place.",
+    desc: "SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web. The brands and products you love - all in one place.",
     github:
       "https://github.com/Hsudeep/shop.com?organization=Hsudeep&organization=Hsudeep",
     link: "https://stirring-babka-e9aa79.netlify.app/",
@@ -118,29 +161,4 @@ export const projectsData = [
   //   github: "https://github.com/Hsudeep/little-spark-7917",
   //   link: "https://celebrated-chaja-01937d.netlify.app/",
   // },
-];
-export const serviceData = [
-  {
-    name: "Web Application Development",
-    desc: "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine",
-    img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png",
-  },
-  {
-    name: "Mobile Application Development",
-    desc: `We provide a range of mobile application development services
-    including custom mobile development on Android platforms, building
-    cross-platform apps, designing user experience and integrating
-    novel mobile interfaces such as chat and voice`,
-    img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png",
-  },
-
-  {
-    name: "Backend Development",
-    desc: `Graphic design is a craft where professionals create visual
-    content to communicate messages. By applying visual hierarchy and
-    page layout techniques, designers use typography and pictures to
-    meet users' specific needs and focus on the logic of displaying
-    elements in interactive designs, to optimize the user experience.`,
-    img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png",
-  },
 ];

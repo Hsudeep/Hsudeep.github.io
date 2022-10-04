@@ -63,9 +63,10 @@ const Navbar = () => {
                 "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
               }
             >
-              {links.map((el) => (
+              {links.map((el, i) => (
                 <li className="cursor-pointer">
                   <Link
+                    key={i}
                     to={el.route}
                     activeClass={"text-white bg-blue-500"}
                     spy={true}
@@ -140,8 +141,9 @@ const Navbar = () => {
             }
           >
             <ul class="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
-              {links.map((el) => (
+              {links.map((el,i) => (
                 <Link
+                key={i}
                   to={el.route}
                   activeClass={"text-white bg-blue-500"}
                   className={

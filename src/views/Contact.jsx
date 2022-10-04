@@ -132,8 +132,9 @@ const Contact = () => {
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
-              {contactLinks.map((el) => (
+              {contactLinks.map((el, index) => (
                 <a
+                  // key={index}
                   target="_blank"
                   rel="noreferrer"
                   href={el.link}
